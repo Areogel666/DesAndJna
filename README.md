@@ -27,4 +27,4 @@
 
 ### 4.示例代码
 - [Jna调用so库](https://github.com/Areogel666/DesAndJna/blob/master/src/cn/lxr/instance/TestJNA.java)
-- [Jna调用so库](https://github.com/Areogel666/DesAndJna/blob/master/src/cn/lxr/instance/TestJNI.java)
+- [Jni调用so库](https://github.com/Areogel666/DesAndJna/blob/master/src/cn/lxr/instance/TestJNI.java)
