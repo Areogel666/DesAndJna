@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import com.vstsoft.des.Des;
 
@@ -19,8 +21,8 @@ public class DesFile {
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
 		DesFile m = new DesFile();
-		m.enc("D:\\temp\\szpk2018042001.txt", "D:\\temp\\test.txt");
-		m.dec("D:\\temp\\test.txt", "D:\\temp\\testResult.txt");
+		m.enc("D:/temp/2YCLF0711010520161002.txtenc", "D:/temp/test.txt");
+		m.dec("D:/temp/2YCLF0711010520161002.txt", "D:/temp/testResult1.txt");
 	}
 	/*加密,srcPath:明文绝对路径,objPath:生称密文绝对路径*/
 	public static int enc(String srcPath, String objPath){

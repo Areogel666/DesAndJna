@@ -3,12 +3,15 @@ package cn.lxr.instance;
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -218,4 +221,5 @@ public class DesEcb {
         getDESFile("D:\\temp\\szpk2018042001.txt", "D:\\temp\\test.txt", 0, 0, key);
         getDESFile("D:\\temp\\test.txt", "D:\\temp\\testResult.txt", 1, 0, key);
     }  
+    
 }
