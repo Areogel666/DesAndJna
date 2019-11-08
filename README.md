@@ -10,6 +10,13 @@
 - [Des加解密方法二](https://github.com/Areogel666/DesAndJna/blob/master/src/cn/lxr/instance/DesFile.java)
 - [3Des加解密方法](https://github.com/Areogel666/DesAndJna/blob/master/src/cn/lxr/instance/TripleDES.java)
 
+## Rsa加解密
+
+### 1.关于Rsa加密
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RSA加密算法是一种非对称加密算法。在公开密钥密码体制中，加密密钥（即公开密钥）PK是公开信息，而解密密钥（即秘密密钥）SK是需要保密的。加密算法E和解密算法D也都是公开的。虽然解密密钥SK是由公开密钥PK决定的，由于无法计算出大数n的欧拉函数phi(N)，所以不能根据PK计算出SK。
+### 2.代码示例
+- [Rsa加解密方法](https://github.com/Areogel666/DesAndJna/blob/master/src/cn/lxr/util/RSAEncrypt.java)
+
 ## Jni、Jna调用c语言动态链接库
 
 ### 1.关于Jni
