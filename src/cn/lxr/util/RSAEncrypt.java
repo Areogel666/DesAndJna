@@ -1,5 +1,4 @@
-package com.pqsoft.util;
-
+﻿package xxx;
 import java.security.KeyFactory;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
@@ -24,7 +23,7 @@ public class RSAEncrypt {
 		// 生成公钥和私钥
 		genKeyPair();
 		// 加密字符串
-		String message = "山重融资租赁有限公司SFLC2019";
+		String message = "张三公司SFZSLC2019";
 		System.out.println("随机生成的公钥为:" + keyMap.get(0));
 		System.out.println("随机生成的私钥为:" + keyMap.get(1));
 		String messageEn = encrypt(message, keyMap.get(0));
